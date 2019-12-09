@@ -2,6 +2,16 @@ language: python
 python:
     - "3.7.3"
     - "3.6.5"
+env:
+  - PACKAGE=@slack/web-api
+  - PACKAGE=@slack/rtm-api
+  - PACKAGE=@slack/interactive-messages
+  - PACKAGE=@slack/events-api
+  - PACKAGE=@slack/webhook
+  - PACKAGE=@slack/types
+  - PACKAGE=@slack/logger
+  - PACKAGE=@slack/client
+  - PACKAGE=@slack/sdk-integration-tests
 install:
     - (venv) pip install --upgrade -r requirements.txt
 script:
