@@ -15,4 +15,4 @@ env:
 install:
     - (venv) pip install --upgrade -r requirements.txt
 script:
-    -python suitetest.py
+    -python slackchanneltest.py
